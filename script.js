@@ -8,19 +8,19 @@ class CustomMatch{
     this.num=num;
     }
         plus(plus){
-            this.num=this.num+plus;
+            this.num+=plus;
             return this;
         }
         minus(minus){
-            this.num=this.num-minus;
+            this.num-=minus;
             return this;
         }
         multiply(multiply){
-            this.num=this.num*multiply;
+            this.num*=ultiply;
             return this;
         }
         divide(divide){
-            this.num=this.num/divide;
+            this.num/=divide;
             return this;
         }
 }
