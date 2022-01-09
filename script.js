@@ -26,3 +26,4 @@ class CustomMatch{
 }
 var result = new CustomMatch(100).plus(6).minus(30).multiply(3).divide(2);
 console.log(result);
+//аккпкп
